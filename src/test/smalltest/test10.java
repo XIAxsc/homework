@@ -1,4 +1,4 @@
-package test;
+package test.smalltest;
 
 public class test10 {
 

@@ -1,4 +1,4 @@
-package test;
+package test.smalltest;
 
 class car {
     String color = "黑色";

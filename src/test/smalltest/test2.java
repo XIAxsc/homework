@@ -1,4 +1,4 @@
-package test;
+package test.smalltest;
 
 class Teacher {
     // 默认赋值 0，null

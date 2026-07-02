@@ -1,4 +1,4 @@
-package test;
+package test.smalltest;
 
 // 父类手机
 public class test3 {

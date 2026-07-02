@@ -1,6 +1,8 @@
 package test.iostream;
 
+import java.io.BufferedWriter;
 import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 
 /*
@@ -8,7 +10,19 @@ import java.io.IOException;
  */
 public class InputStreamDemo {
     public static void main(String[] args) throws IOException {
-        // 创建输入流对象
+
+        // 字符流输出
+        FileWriter writer = new FileWriter("test/a.py");
+        writer.write("a = 10\nb = 20\nprint(a + b)\n");
+        writer.close();
+
+        // 字符缓存输出
+        BufferedWriter bw = new BufferedWriter(new FileWriter("test/a.py",true));
+        bw.newLine();
+        bw.write("print('hello')");
+        bw.close();
+
+        // 创建字节输入流对象
         FileInputStream in = new FileInputStream("test/a.py");
 
         // 循环

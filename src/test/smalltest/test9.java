@@ -1,4 +1,4 @@
-package test;
+package test.smalltest;
 
 /**
  * @author 夏盛成

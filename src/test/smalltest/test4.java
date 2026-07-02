@@ -1,4 +1,4 @@
-package test;
+package test.smalltest;
 
 public class test4 {
     public static void main(String[] args) {
