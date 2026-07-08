@@ -1,4 +1,6 @@
-package algorithm.basicstructure.LinkedList;
+package algorithm.basicstructure.Demo;
+
+import algorithm.basicstructure.LinkedList.ListNode;
 
 public class LinkedListDemo {
 
