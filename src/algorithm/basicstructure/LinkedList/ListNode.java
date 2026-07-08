@@ -1,16 +1,20 @@
 package algorithm.basicstructure.LinkedList;
 
+
+/**
+ * 自定义单链表
+ */
 public class ListNode {
-    public int val;
-    public ListNode next;
+    public int val;             // 值
+    public ListNode next;       // 指针指向下一个节点
 
     public ListNode(int x) {
-        val = x;
+        this.val = x;
     }
 
     // 传入数组，创建单链表
     public static ListNode createLinkedList(int[] arr) {
-        // 如果arr不指向数组，或者数组为空，创建单链表失败
+        // 如果arr不指向数组，或者数组为空，创建单链表失败（边界条件判定）
         if (arr == null || arr.length == 0) {
             System.out.println("创建单链表失败。");
             return null;
