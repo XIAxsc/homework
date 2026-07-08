@@ -3,7 +3,7 @@ package test.smalltest;
 public class test8 {
 }
 
-class test{
+class test {
     int i;
 
 }

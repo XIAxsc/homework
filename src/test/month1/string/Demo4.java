@@ -38,7 +38,7 @@ public class Demo4 {
     private static void bubbleSort(char[] chars) {
         for (int i = 0; i < chars.length; i++) {
             for (int j = 0; j < chars.length - 1 - i; j++) {
-                if(chars[j] > chars[j + 1]){
+                if (chars[j] > chars[j + 1]) {
                     char temp = chars[j];
                     chars[j] = chars[j + 1];
                     chars[j + 1] = temp;

@@ -31,7 +31,6 @@ public class Npc {
     }
 
 
-
     private void printNpc() {
         System.out.println("Npc name: " + name);
         System.out.println("Npc age: " + age);
@@ -52,7 +51,7 @@ public class Npc {
 
     public static void main(String[] args) {
         Npc npc1 = new Npc("Adventurer", 20, "Male", 1.8, 70, 10, 12, 14, 16, 18, 20, new Bag());
-        npc1.bagN = new Bag(5,npc1);
+        npc1.bagN = new Bag(5, npc1);
 
         npc1.bagN.addItemBag("Sword");
         npc1.bagN.addItemBag("Shield");

@@ -5,7 +5,7 @@ public class Demo2 {
         Cat cat1 = new Cat();
         System.out.println("cat1.age = " + cat1.age);
         cat1.shut();
-        Animals cat = new Animals("cat",2);
+        Animals cat = new Animals("cat", 2);
         System.out.println("cat.toString() = " + cat);
     }
 }

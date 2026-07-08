@@ -4,23 +4,24 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class Demo {
-    private static void update(Student[] studs,Student stu){
+    private static void update(Student[] studs, Student stu) {
         for (int i = 0; i < studs.length; i++) {
-            if(stu.age == studs[i].age){
+            if (stu.age == studs[i].age) {
                 studs[i] = stu;
             }
         }
     }
+
     public static void main(String[] args) {
         Student[] students = new Student[]{
-                new Student(1,"张三"),
-                new Student(2,"李四"),
-                new Student(3,"王五"),
-                new Student(4,"赵六")
+                new Student(1, "张三"),
+                new Student(2, "李四"),
+                new Student(3, "王五"),
+                new Student(4, "赵六")
         };
-        Student newStu = new Student(3,"李白");
+        Student newStu = new Student(3, "李白");
 
-        update(students,newStu);
+        update(students, newStu);
 
         System.out.println(Arrays.toString(students));
     }

@@ -4,15 +4,15 @@ class car {
     String color = "黑色";
     double speed = 120.0;
 
-    public void run(){
+    public void run() {
         System.out.println(color + "的车在高速上以" + speed + "公里每小时的速度行驶中。");
     }
 
-    public void run(double speed){
+    public void run(double speed) {
         System.out.println(color + "的车在高速上以" + speed + "公里每小时的速度行驶中。");
     }
 
-    public void printThis(){
+    public void printThis() {
         System.out.println(this);
     }
 
@@ -37,7 +37,7 @@ class car {
 public class test1 {
     public static void main(String[] args) {
         car car = new car();
-        car c1 = new car("yellow",120);
+        car c1 = new car("yellow", 120);
         System.out.println("c1.toString() = " + c1);
         car.run();
         car.run(200);

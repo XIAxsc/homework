@@ -58,6 +58,7 @@ class Task4 implements Runnable {
 //     public void run() {
 //         int count = 5;
 //         while (i < 76) {
+//             同步代码块（是一种代码块），里面的代码都是加了锁的，即获得了锁才有这些代码，否则没有
 //             synchronized (OBJECT) {
 //                 OBJECT.notifyAll();
 //                 if (Thread.currentThread().getName().equals("t1")) {

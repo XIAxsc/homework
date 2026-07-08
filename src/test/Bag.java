@@ -10,7 +10,9 @@ public class Bag {
         items = new java.util.ArrayList<>();
         npcB = npc;
     }
-    public Bag(){}
+
+    public Bag() {
+    }
 
     public void addItemBag(String item) {
         if (items.size() >= size) {

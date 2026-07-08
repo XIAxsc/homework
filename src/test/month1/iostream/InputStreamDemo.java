@@ -17,7 +17,7 @@ public class InputStreamDemo {
         writer.close();
 
         // 字符缓存输出
-        BufferedWriter bw = new BufferedWriter(new FileWriter("test/a.py",true));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("test/a.py", true));
         bw.newLine();
         bw.write("print('hello')");
         bw.close();
@@ -36,7 +36,7 @@ public class InputStreamDemo {
         int readCount;
         byte[] bytes = new byte[1024];
         while ((readCount = in.read(bytes)) != -1) {
-            System.out.println(new String(bytes,0,readCount));
+            System.out.println(new String(bytes, 0, readCount));
         }
 
 

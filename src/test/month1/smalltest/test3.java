@@ -22,6 +22,7 @@ public class test3 {
 abstract class Phone {
     // 打电话方法
     public abstract void call();
+
     // 发信息方法
     public abstract void sendMessage();
 }

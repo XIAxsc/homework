@@ -6,9 +6,11 @@ public class test10 {
         A a1 = new A();
     }
 }
+
 interface IA {
     void ia();
 }
-class A{
+
+class A {
     int a;
 }

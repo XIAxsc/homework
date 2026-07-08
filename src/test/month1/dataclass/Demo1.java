@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Demo1 {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         Date now = new Date();
         System.out.println("now = " + now);
 

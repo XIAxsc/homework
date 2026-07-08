@@ -24,8 +24,5 @@ public class Demo1 {
     }
 
 
-
-
-
 }
 

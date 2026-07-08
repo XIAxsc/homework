@@ -8,8 +8,8 @@ public class no2 {
         StringBuffer sb = new StringBuffer();
         // 获取当前时间戳
         long start = System.currentTimeMillis();
-        //int sum = 0;
-        //str += "a";
+        // int sum = 0;
+        // str += "a";
         // sum+=i;
         sb.append("a".repeat(1000000));
         long end = System.currentTimeMillis();

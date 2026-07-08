@@ -21,8 +21,8 @@ class MethodLogger {
         Class clazz = target.getClass();
 
         // b. 遍历所有方法，找到名称和参数类型匹配的方法（注意处理基本类型！）
-        Method targetMethod = null;
         Method[] methods = clazz.getDeclaredMethods();
+        Method targetMethod = null;
         for (Method method : methods) {
             if (!methodName.equals(method.getName())) {
                 continue;

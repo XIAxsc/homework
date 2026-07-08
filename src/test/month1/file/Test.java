@@ -3,6 +3,7 @@ package test.file;
 public class Test {
     private static int cardLength = 10;
     private static int passwordLength = 6;
+
     public static void main(String[] args) {
         try {
             processPayment("1234567890", "111111");

@@ -13,7 +13,7 @@ public class Demo2 {
 
         int fromIndex = 0;
         int count = 0;
-        while ( (fromIndex = s.indexOf("abc",fromIndex)) != -1){
+        while ((fromIndex = s.indexOf("abc", fromIndex)) != -1) {
             count += 1;
             fromIndex++;
         }

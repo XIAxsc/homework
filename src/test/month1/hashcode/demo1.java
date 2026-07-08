@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class demo1 {
     public static void main(String[] args) {
-        Student stu1 = new Student(1001,"张三",18);
-        Student stu2 = new Student(1001,"张三",18);
-        Student stu3 = new Student(1003,"张三疯",180);
+        Student stu1 = new Student(1001, "张三", 18);
+        Student stu2 = new Student(1001, "张三", 18);
+        Student stu3 = new Student(1003, "张三疯", 180);
 
         System.out.println(stu1.equals(stu2));
         System.out.println(stu1.equals(stu3));
@@ -16,6 +16,7 @@ public class demo1 {
         System.out.println("stu1 = " + stu1);
     }
 }
+
 class Student {
     int id;
     String name;
