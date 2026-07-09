@@ -2,6 +2,15 @@ package algorithm.basicstructure.LinkedList;
 
 import java.util.NoSuchElementException;
 
+
+/**
+ * 自定义单链表
+ * <p>
+ * createLinkedList(int[] arr)                             传入一个数组，创建单链表
+ * traverse(ListNode head)                                 传入链表的一个结点，从该结点开始依次向后遍历
+ * insertTail(ListNode head, int value)                    传入链表头结点和一个int类型值value，在链表结尾新增值为value的结点
+ * insertMiddle(ListNode head, int value, int index)       在第index节点之后插入值为value的新结点
+ */
 public class MyLinkedList2<E> {
 
     private static class Node<E> {

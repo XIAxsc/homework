@@ -89,8 +89,8 @@ public class ListNode {
     }
 
     public static void main(String[] args) {
-        ListNode head = createLinkedList(new int[]{1, 2, 3, 4, 5});
-        traverse(head);
+        ListNode head = createLinkedList(new int[]{1, 2, 3, 4, 5}); // 创建单链表
+        traverse(head);                                             // 遍历
 
         insertTail(head, 6);
         insertMiddle(head, 0, 3);
