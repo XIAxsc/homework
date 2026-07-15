@@ -1,4 +1,4 @@
-package test.dataclass;
+package test.month1.dataclass;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -14,7 +14,9 @@ public class Demo1 {
         System.out.println("nowML = " + nowML);
         System.out.println(new Date(nowML));
 
-        SimpleDateFormat a = new SimpleDateFormat("2003/02/12 03:30:30");
+        SimpleDateFormat a = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
+        Date date = a.parse("2003/02/12 03:30:30");
+        System.out.println("date = " + date.getTime());
         System.out.println(a.parse(a.format(birth)));
     }
 }

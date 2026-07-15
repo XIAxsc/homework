@@ -79,11 +79,11 @@ class Father extends Grandfather {
     }
 
     public void testFather() {
-        System.out.println("Father：testFather");
+        System.out.println("Person：testFather");
     }
 
     public void test() {
-        System.out.println("Father：test");
+        System.out.println("Person：test");
     }
 }
 

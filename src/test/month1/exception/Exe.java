@@ -1,6 +1,6 @@
-package test.file;
+package test.month1.exception;
 
-public class Test {
+public class Exe {
     private static int cardLength = 10;
     private static int passwordLength = 6;
 
