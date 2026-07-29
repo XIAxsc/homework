@@ -1,4 +1,4 @@
-package main.java.algorithm.basicstructure.array;
+package algorithm.basicstructure.array;
 
 
 public class DynamicArray<E> {

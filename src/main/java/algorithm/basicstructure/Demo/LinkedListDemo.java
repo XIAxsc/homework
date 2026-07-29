@@ -1,6 +1,6 @@
-package main.java.algorithm.basicstructure.Demo;
+package algorithm.basicstructure.Demo;
 
-import main.java.algorithm.basicstructure.LinkedList.ListNode;
+import algorithm.basicstructure.LinkedList.ListNode;
 
 public class LinkedListDemo {
 

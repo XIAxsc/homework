@@ -1,4 +1,4 @@
-package main.java.algorithm.basicstructure.stack;
+package algorithm.basicstructure.stack;
 
 import java.util.ArrayList;
 

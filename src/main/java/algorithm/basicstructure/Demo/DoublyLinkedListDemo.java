@@ -1,8 +1,8 @@
-package main.java.algorithm.basicstructure.Demo;
+package algorithm.basicstructure.Demo;
 
-import main.java.algorithm.basicstructure.LinkedList.DoublyListNode;
+import algorithm.basicstructure.LinkedList.DoublyListNode;
 
-import static main.java.algorithm.basicstructure.LinkedList.DoublyListNode.*;
+import static algorithm.basicstructure.LinkedList.DoublyListNode.*;
 
 public class DoublyLinkedListDemo {
     public static void main(String[] args) {

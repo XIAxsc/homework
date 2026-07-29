@@ -1,4 +1,4 @@
-package main.java.algorithm.basicstructure.LinkedList;
+package algorithm.basicstructure.LinkedList;
 
 public class DoublyListNode {
     public int val;

@@ -1,4 +1,4 @@
-package main.java.algorithm.basicstructure.queue;
+package algorithm.basicstructure.queue;
 
 import java.util.LinkedList;
 
