@@ -1,0 +1,74 @@
+package homework.day18;
+
+import java.util.Arrays;
+
+public class Demo3 {
+    public static void main(String[] args) {
+        Cat c = new Cat(1, "小黄", 100);
+        Cat c1 = new Cat(2, "小黑", 200);
+        Cat c2 = new Cat(2, "貉", 2000);
+        Cat c3 = new Cat(2, "马云的猫", 10000);
+        Cat c4 = new Cat(2, "云哥", 8000);
+        Cat c5 = new Cat(3, "吉祥物", 800);
+        Cat c6 = new Cat(2, "阿修罗", 9000);
+        Cat c7 = new Cat(2, "云堇", 300);
+        Cat c8 = new Cat(2, "咪咪", 400);
+        Cat c9 = new Cat(8, "养乐多", 500);
+        Cat[] cats = {c, c1, c2, c3, c4, c5, c6, c7, c8, c9};
+
+        // 重写实现按照年龄的从小到大对Cat对象数组进行排序
+        // Arrays.sort(cats);
+
+        // 按照price从高到低进行排序
+        // Arrays.sort(cats,(o1 , o2) -> (int) (o2.price - o1.price));
+
+        // 按照name的长短从短到长进行排序
+        // Arrays.sort(cats,(o1 , o2) -> o1.name.length() - o2.name.length());
+
+        // 综合age，name，price进行排序，要求用Lambda表达式的方法引用语法。
+        // 排序的规则是先按照age从小到大排序，age相同比较name长短，
+        // 按照name的长度从短到长排序，name长度也相等，比较price，price按照从高到低排序
+
+        Arrays.sort(cats, (o1, o2) -> {
+            if(o1.age - o2.age != 0) {
+                return o1.age - o2.age;
+            } else if (o1.name.length() - o2.name.length() != 0) {
+                return o1.name.length() - o2.name.length();
+            }
+            return (int) (o2.price - o1.price);
+        });
+
+        System.out.println("排序后的结果如下：");
+        for (Cat cat : cats) {
+            System.out.println(cat);
+        }
+        // System.out.println(Arrays.toString(cats));
+
+
+    }
+}
+class Cat implements Comparable<Cat>{
+    int age;
+    String name;
+    double price;
+
+    public Cat(int age, String name, double price) {
+        this.age = age;
+        this.name = name;
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Cat o) {
+        return this.age - o.age;
+    }
+}
