@@ -1,4 +1,4 @@
-package main.java.day17;
+package day17;
 
 
 public class Demo3 {

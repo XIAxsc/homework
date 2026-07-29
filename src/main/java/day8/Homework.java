@@ -1,4 +1,4 @@
-package main.java.day8;
+package day8;
 
 /**
  * 问题1: 思考注释1下面的代码能否放开?会不会报错?

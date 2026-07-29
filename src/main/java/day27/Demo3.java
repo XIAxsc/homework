@@ -1,4 +1,4 @@
-package main.java.day27;
+package day27;
 
 // 泛型不接受基本数据类型！！！
 public class Demo3 {

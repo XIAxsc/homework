@@ -1,4 +1,4 @@
-package main.java.day7;
+package day7;
 
 public class Account {
     public static int id = 10001;

@@ -1,4 +1,4 @@
-package main.java.day10.b;
+package day10.b;
 
 public class Student {
     int b;

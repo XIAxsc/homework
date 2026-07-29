@@ -1,4 +1,4 @@
-package main.java.day24;
+package day24;
 
 import java.util.concurrent.*;
 

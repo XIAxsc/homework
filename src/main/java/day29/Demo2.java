@@ -1,4 +1,4 @@
-package main.java.day29;
+package day29;
 
 import java.util.ArrayList;
 import java.util.Comparator;

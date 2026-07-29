@@ -1,4 +1,4 @@
-package main.java.day25;
+package day25;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

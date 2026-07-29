@@ -1,4 +1,4 @@
-package main.java.day15;
+package day15;
 
 /**
  * 分别定义以下类：

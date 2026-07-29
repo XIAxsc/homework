@@ -1,4 +1,4 @@
-package main.java.day17;
+package day17;
 
 /**
  *  1. 字符串常量池位置（栈内存？ 堆内存？ 方法区 ？本地方法栈 ？）

@@ -1,4 +1,4 @@
-package main.java.day5;
+package day5;
 
 public class _4_variadic_arguments {
     public static void main(String[] args) {

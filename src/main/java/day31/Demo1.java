@@ -1,4 +1,4 @@
-package main.java.day31;
+package day31;
 
 import java.util.ArrayList;
 import java.util.List;

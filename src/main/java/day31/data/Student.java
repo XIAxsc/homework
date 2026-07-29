@@ -1,4 +1,4 @@
-package main.java.day31.data;
+package day31.data;
 
 import java.util.Objects;
 

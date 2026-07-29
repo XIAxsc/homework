@@ -1,4 +1,4 @@
-package main.java.day21;
+package day21;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

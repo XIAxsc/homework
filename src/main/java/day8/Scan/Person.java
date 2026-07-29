@@ -1,4 +1,4 @@
-package main.java.day8.Scan;
+package day8.Scan;
 
 public class Person {
     String name;

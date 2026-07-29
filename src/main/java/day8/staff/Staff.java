@@ -1,4 +1,4 @@
-package main.java.day8.staff;
+package day8.staff;
 
 public class Staff {
     String name;

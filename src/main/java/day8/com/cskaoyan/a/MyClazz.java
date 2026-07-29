@@ -1,4 +1,4 @@
-package main.java.day8.com.cskaoyan.a;
+package day8.com.cskaoyan.a;
 
 public class MyClazz {
     public void hello() {

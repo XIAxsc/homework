@@ -1,4 +1,4 @@
-package main.java.day8.Scan;
+package day8.Scan;
 
 import java.util.Scanner;
 

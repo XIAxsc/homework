@@ -1,4 +1,4 @@
-package main.java.day20;
+package day20;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

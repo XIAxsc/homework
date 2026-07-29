@@ -1,4 +1,4 @@
-package main.java.day8.account;
+package day8.account;
 
 public class Account {
     private String userName;

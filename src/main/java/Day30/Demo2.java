@@ -1,4 +1,4 @@
-package main.java.Day30;
+package Day30;
 
 import java.util.ArrayList;
 import java.util.HashMap;

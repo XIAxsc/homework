@@ -1,4 +1,4 @@
-package main.java.Day40;
+package Day40;
 
 import java.io.FileReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package main.java.day10;
+package day10;
 
 public class Demo3 {
     final int a = 1;

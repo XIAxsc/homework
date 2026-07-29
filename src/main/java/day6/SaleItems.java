@@ -1,4 +1,4 @@
-package main.java.day6;
+package day6;
 
 public class SaleItems {
     public static void main(String[] args) {

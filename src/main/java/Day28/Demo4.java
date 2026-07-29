@@ -1,4 +1,4 @@
-package main.java.Day28;
+package Day28;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

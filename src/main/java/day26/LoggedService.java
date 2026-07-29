@@ -1,4 +1,4 @@
-package main.java.day26;
+package day26;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

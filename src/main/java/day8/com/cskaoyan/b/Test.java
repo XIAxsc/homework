@@ -1,4 +1,4 @@
-package main.java.day8.com.cskaoyan.b;
+package day8.com.cskaoyan.b;
 // import month1.day8.com.cskaoyan.a.MyClazz;
 
 public class Test {

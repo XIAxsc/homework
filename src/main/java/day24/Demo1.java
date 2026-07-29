@@ -1,4 +1,4 @@
-package main.java.day24;
+package day24;
 
 public class Demo1 {
     public static final Object obj = new Object();
