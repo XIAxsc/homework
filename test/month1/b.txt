@@ -1,5 +1,0 @@
-rsztuvijxypbmnocklwaefghdq
-字节流：
-abcdefghijklmnopqrstuvwxyz
-字符流：
-abcdefghijklmnopqrstuvwxyz
