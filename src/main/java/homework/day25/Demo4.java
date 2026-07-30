@@ -15,7 +15,6 @@ public class Demo4 {
 // 1. 工具类 MethodLogger
 class MethodLogger {
     public static Object logMethod(Object target, String methodName, Object... args) throws InvocationTargetException, IllegalAccessException {
-        // TODO: 补充反射逻辑
         // 步骤提示：
         // a. 获取 target 的 Class 对象
         Class clazz = target.getClass();

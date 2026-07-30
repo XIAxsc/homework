@@ -195,7 +195,6 @@ public class MyLinkedList<E> {
     private Node<E> getNode(int index) {
         checkElementIndex(index);
         Node<E> p = head.next;
-        // TODO: 可以优化，通过 index 判断从 head 还是 tail 开始遍历
         for (int i = 0; i < index; i++) {
             p = p.next;
         }
