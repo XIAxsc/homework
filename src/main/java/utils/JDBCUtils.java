@@ -1,7 +1,10 @@
 package utils;
 
+import homework.Stage2.Day2_Git.Problem3.Main;
+
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
 
@@ -20,11 +23,14 @@ public class JDBCUtils {
     static {
 
         // 1. 创建一个Properties对象
+
+        InputStream in = Main.class.getClassLoader().getResourceAsStream("jdbc.properties");
+
         Properties properties = new Properties();
 
         // 2. 加载文件
         try {
-            properties.load(new FileInputStream("jdbc.properties"));
+            properties.load(in);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
